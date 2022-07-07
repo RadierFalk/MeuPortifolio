@@ -1,0 +1,67 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+body ,.corPrimaria {
+    background-image: linear-gradient(to right,rgb(37, 107, 153),rgb(68, 143, 194),rgb(103, 180, 231)) !important;
+    background-size: 500% 100%;
+    animation-name: degrade;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes degrade {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+
+}
+.navTop{
+    background-color: rgb(37, 107, 153) !important;
+    border-style: solid;
+}
+.nav-link{
+    font-size: 23px;
+    margin: 0 10px;
+    
+}
+.foto-perfil{
+    height: 20%;
+    width: 30%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    color: black !important;
+}
+.icones{
+    padding-left: 5px;
+}
+.fab{
+    margin: 10px;
+    color: #343a40;
+    font-size: 30px;
+
+}
+.titulosBrancos{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.titulosVerde{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(39, 230, 204);
+}
+footer{
+    margin-top: 80px;
+}
